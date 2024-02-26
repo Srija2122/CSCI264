@@ -91,3 +91,4 @@ for x, y_true in zip(X, Y):
 print("Epoch\tSquared Error\tAccuracy")
 for i in range(len(epoch_list)):
     print(f"{epoch_list[i]}\t{squared_error_list[i]}\t{accuracy_list[i]}")
+
